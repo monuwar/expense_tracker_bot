@@ -1,0 +1,8 @@
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+startCommand = "python expense_tracker_bot.py"
+
+[env]
+PYTHONUNBUFFERED = "1"
